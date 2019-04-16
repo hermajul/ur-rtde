@@ -1,0 +1,30 @@
+{
+  "name": "ur-rtde",
+  "version": "1.0.0",
+  "description": "Nodejs library for reading the data from the Realtime Data Interface of Universal Robots",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hermajul/ur-rtde.git"
+  },
+  "dependencies": {
+    "node-int64": "0.4.0"
+  },
+  "keywords": [
+    "universal",
+    "robots",
+    "realtime-data-interface",
+    "ur3",
+    "ur5",
+    "ur10"
+  ],
+  "author": "hermajul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hermajul/ur-rtde/issues"
+  },
+  "homepage": "https://github.com/hermajul/ur-rtde#readme"
+}
