@@ -19,3 +19,5 @@ see the file `example.js`
 It returns a JSON-Object which contains the decoded Informations based on the documentation of Universal Robots https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/remote-control-via-tcpip-16496/
 respectively:
 https://s3-eu-west-1.amazonaws.com/ur-support-site/16496/Client_Interface_V3.8andV5.2.xlsx
+
+The file exampleOutput.json shows an exemplary output
