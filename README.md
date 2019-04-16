@@ -14,6 +14,8 @@ npm i
 
 see the file `example.js`
 
+`var ur = require('ur-rtde/ur');`
+
 `new ur().onData(data);` where the argument is the buffer recieved from the TCP-Interface of the Robot.
 
 It returns a JSON-Object which contains the decoded Informations based on the documentation of Universal Robots https://www.universal-robots.com/how-tos-and-faqs/how-to/ur-how-tos/remote-control-via-tcpip-16496/
