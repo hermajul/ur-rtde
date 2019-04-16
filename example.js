@@ -14,10 +14,9 @@ client.connect(port, host, function() {
 });
 
 client.on('data', function(data) {
-    var ur10 = new ur();
-    var res = ur10.onData(data);
+    var res = new ur().onData(data);
     if(res !== undefined){
-        console.log(res);
+        console.log(JSON.stringify(res));
     }
     if(tmp >= samples){
         client.destroy();
