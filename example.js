@@ -1,5 +1,5 @@
 var net = require('net');
-var ur = require('./ur.js');
+var ur = require('ur-rtde/ur');
 
 
 var host = '134.103.112.103';
